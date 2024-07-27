@@ -1,9 +1,13 @@
-import { Container } from "react-bootstrap";
+import Container from 'react-bootstrap/Container';
 
 const Footer = () => {
     return ( 
         <>
         <Container>
+            
+            
+            
+            
             <footer>
     <div class="f1">
     <ul class="footer1">
@@ -30,7 +34,7 @@ const Footer = () => {
       <i class="fa-brands fa-youtube"></i>
       <i class="fa-brands fa-pinterest"></i>
     </ul>
-    
+
   </div>
   <div class="f2">
     <hr/>
@@ -43,11 +47,11 @@ const Footer = () => {
       <li>product care</li>
     </ol>
   </div>
-    
+
   </footer>
   </Container>
         </>
      )
 }
- 
+
 export default Footer;
